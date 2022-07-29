@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Material UI for SolidJS.",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepare": "husky install",
+    "preinstall": "npx only-allow pnpm",
+    "test": "echo 'Hello World!'"
   },
   "keywords": [
     "Material UI",
@@ -12,6 +14,9 @@
   "author": "wjq990112<https://twitter.com/wangjiaqi990112>",
   "license": "MIT",
   "devDependencies": {
+    "@commitlint/cli": "^17.0.3",
+    "@commitlint/config-conventional": "^17.0.3",
+    "husky": "^8.0.1",
     "typescript": "^4.7.4"
   }
 }
