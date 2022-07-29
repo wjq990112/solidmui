@@ -1,0 +1,17 @@
+{
+  "name": "@solidmui/workspace",
+  "version": "1.0.0",
+  "description": "Material Design for SolidJS.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Material Design",
+    "SolidJS"
+  ],
+  "author": "wjq990112<https://twitter.com/wangjiaqi990112>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
+}
