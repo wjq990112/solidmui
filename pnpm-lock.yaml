@@ -1,0 +1,19 @@
+lockfileVersion: 5.4
+
+importers:
+
+  .:
+    specifiers:
+      typescript: ^4.7.4
+    devDependencies:
+      typescript: registry.npm.alibaba-inc.com/typescript/4.7.4
+
+packages:
+
+  registry.npm.alibaba-inc.com/typescript/4.7.4:
+    resolution: {integrity: sha512-C0WQT0gezHuw6AdY1M2jxUO83Rjf0HP7Sk1DtXj6j1EwkQNZrHAg2XPWlq62oqEhYvONq5pkC2Y9oPljWToLmQ==, registry: https://registry.antfin-inc.com/, tarball: https://registry.npm.alibaba-inc.com/typescript/download/typescript-4.7.4.tgz}
+    name: typescript
+    version: 4.7.4
+    engines: {node: '>=4.2.0'}
+    hasBin: true
+    dev: true
