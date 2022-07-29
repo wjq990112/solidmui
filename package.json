@@ -1,12 +1,12 @@
 {
   "name": "@solidmui/workspace",
   "version": "1.0.0",
-  "description": "Material Design for SolidJS.",
+  "description": "Material UI for SolidJS.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "Material Design",
+    "Material UI",
     "SolidJS"
   ],
   "author": "wjq990112<https://twitter.com/wangjiaqi990112>",
