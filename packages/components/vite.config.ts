@@ -5,6 +5,7 @@ import baseConfig from '../../vite.config';
 export default defineConfig({
   ...baseConfig,
   build: {
+    minify: false,
     lib: {
       entry: resolve(__dirname, 'src/index.tsx'),
       name: 'SolidMui',
