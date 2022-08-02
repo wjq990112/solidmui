@@ -5,6 +5,10 @@
     "moduleResolution": "node",
     "jsx": "preserve",
     "jsxImportSource": "solid-js",
-    "types": ["vitest/globals", "@types/testing-library__jest-dom"]
+    "types": [
+      "vite/client",
+      "vitest/globals",
+      "@types/testing-library__jest-dom"
+    ]
   }
 }
