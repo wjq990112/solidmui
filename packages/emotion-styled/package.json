@@ -26,7 +26,7 @@
   "author": "wjq990112<https://twitter.com/wangjiaqi990112>",
   "license": "MIT",
   "dependencies": {
-    "@solidmui/shared": "workspace:*",
-    "@solidmui/emotion-utils": "workspace:*"
+    "@emotion/utils": "^1.2.0",
+    "@solidmui/shared": "workspace:1.0.0"
   }
 }

@@ -2,7 +2,7 @@ import {
   getRegisteredStyles,
   insertStyles,
   registerStyles,
-} from '@solidmui/emotion-utils';
+} from '@emotion/utils';
 import { isBrowser, isDefined } from '@solidmui/shared';
 
 function Insertion({ cache, serialized, isStringTag }) {
