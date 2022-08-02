@@ -1,0 +1,28 @@
+{
+  "name": "@solidmui/shared",
+  "version": "1.0.0",
+  "description": "Material UI for SolidJS.",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build"
+  },
+  "keywords": [
+    "Material UI",
+    "SolidJS"
+  ],
+  "author": "wjq990112<https://twitter.com/wangjiaqi990112>",
+  "license": "MIT"
+}
