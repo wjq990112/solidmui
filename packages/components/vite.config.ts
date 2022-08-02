@@ -7,7 +7,7 @@ export default defineConfig({
   build: {
     lib: {
       entry: resolve(__dirname, 'src/index.tsx'),
-      name: 'SolidMUI',
+      name: 'SolidMui',
       formats: ['cjs', 'es', 'umd'],
       fileName: 'index',
     },
